@@ -8,4 +8,9 @@ class UsersTest extends TestCase
     {
 	$this->assertEquals(true, true);
     }
+
+    public function testFailure()
+    {
+	$this->assertEquals(true, false);
+    }
 }
